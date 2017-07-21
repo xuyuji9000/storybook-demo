@@ -1,6 +1,6 @@
 import { put, call } from 'redux-saga/effects'
 import { delay } from 'redux-saga'
-
+import * as constants from './consts'
 import { incrementAsync } from './sagas'
 
 describe('incrementAsync saga test', () =>{
@@ -19,7 +19,7 @@ describe('incrementAsync saga test', () =>{
             gen.next().value
         ).
         toEqual(
-            put({type: 'INCREMENT'})
+            put({type: constants.INCREMENT})
         )
     })
 
