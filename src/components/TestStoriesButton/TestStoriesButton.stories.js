@@ -7,3 +7,6 @@ storiesOf('TestStoriesButton', module)
     .add('with text', () => (
         <TestStoriesButton></TestStoriesButton>
     ))
+    .add('new story', () => (
+        <div></div>
+    ))

@@ -1,75 +1,11 @@
-[![Build Status](https://travis-ci.org/xuyuji9000/slim-redux-skeleton.svg?branch=master)](https://travis-ci.org/xuyuji9000/slim-redux-skeleton)
-# slim redux skeleton
-This is slim redux skeleton.
+# storybook demo
 
-## directories
+This is a react storybook demo.
 
-'php'
+## With test
 
-1. controllers
+1. Storybook provides style requirements to components.
 
-2. libraries
+2. Test provide the thought of component decomposition.
 
-3. public
-
-4. tests
-
-5. config
-
-6. composer.json
-
-'js'
-
-1. src
-
-2. index.html
-
-3. package.json
-
-4. webpack.config.js
-
-
-## instructions 
-
-test
-
-```bash
-npm test
-```
-
-setup
-
-```bash
-npm run setup
-```
-
-dev
-
-run dev environment
-```bash
-npm run build:dev
-```
-
-run production build
-```bash
-npm run build:prod
-```
-
-run backend api
-```bash
-php -S localhost:3001 -t ./public ./public/index.php
-```
-
-upload
-
-upload picture page
-```bash
-http GET http://localhost:3001/uploadimage/view
-```
-
-upload picture 
-
-```bash
-http -f POST http://localhost:3001/uploadimage/upload background@background.jpg
-```
-
+3. Test provide the long run maintenance.
